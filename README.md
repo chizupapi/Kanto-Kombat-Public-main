@@ -2,4 +2,6 @@
 eto po ung project namin, pwede niyo idownload and laruin guyz.
 download niyo lang po ung release sa gedli ----->.
 
+pag nadownload niyo po, extract niyo lang po ung build.zip, then open niyo ung dist.
+
 wait niyo lang po ung mga update if interested po kayo hehe.
