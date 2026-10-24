@@ -10,7 +10,7 @@ import pygame
 
 GAME_DIR = (os.path.dirname(sys.executable) if getattr(sys, "frozen", False)
             else os.path.dirname(os.path.abspath(__file__)))
-SETTINGS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings.json")
+SETTINGS_PATH = os.path.join(GAME_DIR, "settings.json")
 
 volume_settings = {
     "Master Volume": 100,

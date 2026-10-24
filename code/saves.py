@@ -12,7 +12,6 @@ GAME_DIR = (os.path.dirname(sys.executable) if getattr(sys, "frozen", False)
             else os.path.dirname(os.path.abspath(__file__)))
 
 SLOT_COUNT = 3
-GAME_DIR = os.path.dirname(os.path.abspath(__file__))
 SAVE_DIR = os.path.join(GAME_DIR, "save_data")          # the dedicated folder for every save file
 AUTOSAVE_PATH = os.path.join(SAVE_DIR, "savegame.json")  # the autosave (start.py reads and writes it)
 

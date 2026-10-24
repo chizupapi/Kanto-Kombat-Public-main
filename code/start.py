@@ -1,15 +1,18 @@
-import pygame
 import sys
 import os
+
+# Must run BEFORE the project imports below: stages.py checks for music files at import time,
+# so the working directory has to already be the bundle folder when it loads.
+if getattr(sys, "frozen", False):
+    os.chdir(sys._MEIPASS)   # assets and __file__-based paths resolve inside the bundle
+
+import pygame
 import json
 import stages
 import campaign
 import tutorial
 import saves
 from settings import volume_settings, slider_order, update_music_volume, saveSettings
-
-if getattr(sys, "frozen", False):
-    os.chdir(sys._MEIPASS)   # assets and __file__-based paths resolve inside the bundle
 
 # ---------- Initialization and window ----------
 pygame.init()

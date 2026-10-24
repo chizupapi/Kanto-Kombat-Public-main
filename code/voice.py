@@ -39,7 +39,7 @@ VOICE_CONFIG = {
         "Sandugo":  {"volume": 0.8, "ultVolume": 1.5},
         "Darit":    {"volume": 3.8, "ultVolume": 3.8, "hurtVolume": 4.0},
         "Otab":     {"volume": 4.8, "ultVolume": 5.8, "hurtVolume": 4.0},
-        "Nanay Etha":    {"volume": 3.8, "ultVolume": 3.8, "hurtVolume": 4.0},
+        "Nanay Ehta":    {"volume": 3.8, "ultVolume": 3.8, "hurtVolume": 4.0},
         "Yombits":     {"volume": 4.8, "ultVolume": 5.8, "hurtVolume": 4.0},
     },
     "duckLevel": 0.35,        # music sits at this fraction of its volume while a voice talks (1.0 = no ducking)
